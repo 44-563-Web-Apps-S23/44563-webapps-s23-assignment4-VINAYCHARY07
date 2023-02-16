@@ -1,0 +1,74 @@
+p.speech{
+    font: 10px;
+    color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p.direction{
+    font: 10px;;
+    color: yellow;
+    background-color: lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p.direction:hover {
+    background-color:lightgrey;
+    color: purple;
+    
+}
+h5.MRS. X {
+    font:bold;
+    color: blanchedalmond;
+    font-size: 15px;
+    font-style:inherit;
+}
+h5:hover {
+    text-shadow: 20px 20px 30px gray;
+    border-bottom: grey;
+    font-size: 30px;
+}
+h5.MISS Y:hover {
+    text-shadow: 20px 20px 30px lightgreen;
+    border-bottom: greenyellow;
+    font-size: 30px;
+}
+h5.MISS Y{
+    font:bold;
+    color:violet;
+    font-size: 15px;
+    font-style: oblique;
+}
+table { 
+    color: black;
+    /*width: 300px;*/
+    margin: 25px 25px 25px;   
+    
+    }
+table,th,td{
+    padding: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td {
+       
+    color:red;
+    text-align: center;
+
+}
+th{
+      
+    font: bold;
+    color: black;
+    text-align: center;
+    background-color: bisque;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+  }
+  tr:nth-child(odd) {
+    background-color: #ddd;
+  }
+
+  img {
+    display: block;
+    width:100% ;
+  }
